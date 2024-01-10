@@ -11,17 +11,14 @@
     background: var(--bg);
     color: var(--fontColor);
     font-family: helvetica;
-    transition: all 1s ease-in-out;
   }
   
   li {
     list-style: circle;
-    transition: all 1s ease-in-out;
   }
   
   .list {
     list-style: square;
-    transition: all 1s ease-in-out;
   }
   
   .btn {
