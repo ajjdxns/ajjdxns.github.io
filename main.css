@@ -3,6 +3,8 @@
     --darkblue:  #000055;
     --white: #FFFFFF;
     --black: #000000;
+    --linkdark: #666666;
+    --linklight: #bbbbbb;
   }
   
   body {
@@ -31,12 +33,18 @@
     background-color: var(--btnBg);
     transition: all 1s ease-in-out;
   }
+
+  .eml {
+    color: var(--emlFontColor);
+    transition: all 1s ease-in-out;
+  }
   
   .light-theme {
     --bg: var(--lightblue);
     --fontColor: var(--black);
     --btnBg: var(--darkblue);
     --btnFontColor: var(--white);
+    --emlFontColor: var(--linkdark);
     transition: all 1s ease-in-out;
   }
   
@@ -45,5 +53,6 @@
     --fontColor: var(--white);
     --btnBg: var(--lightblue);
     --btnFontColor: var(--black);
+    --emlFontColor: var(--linklight);
     transition: all 1s ease-in-out;
   }
