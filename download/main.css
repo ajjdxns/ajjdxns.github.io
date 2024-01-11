@@ -1,0 +1,50 @@
+:root {
+    --lightblue: #00FFFF;
+    --darkblue:  #000055;
+    --white: #FFFFFF;
+    --black: #000000;
+    --linkdark: #666666;
+    --linklight: #bbbbbb;
+  }
+  
+  body {
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: helvetica;
+  }
+
+  .btn {
+    position: sticky;
+    top: 20px;
+    left: 250px;
+    height: 35px;
+    width: 75px;
+    border-radius: 15%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+    transition: all 1s ease-in-out;
+  }
+
+  .eml {
+    color: var(--emlFontColor);
+    transition: all 1s ease-in-out;
+  }
+  
+  .light-theme {
+    --bg: var(--lightblue);
+    --fontColor: var(--black);
+    --btnBg: var(--darkblue);
+    --btnFontColor: var(--white);
+    --emlFontColor: var(--linkdark);
+    transition: all 1s ease-in-out;
+  }
+  
+  .dark-theme {
+    --bg: var(--darkblue);
+    --fontColor: var(--white);
+    --btnBg: var(--lightblue);
+    --btnFontColor: var(--black);
+    --emlFontColor: var(--linklight);
+    transition: all 1s ease-in-out;
+  }
