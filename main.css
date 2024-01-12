@@ -39,6 +39,11 @@
     transition: all 1s ease-in-out;
   }
   
+  .lik {
+    color: var(--fontColor);
+    transition: all 1s ease-in-out;
+  }
+
   .light-theme {
     --bg: var(--lightblue);
     --fontColor: var(--black);
