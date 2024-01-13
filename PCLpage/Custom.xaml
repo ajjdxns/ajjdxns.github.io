@@ -1,0 +1,14 @@
+<local:MyCard Title="最新消息" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="25,40,23,15">
+        <local:MyHint Margin="0,8,0,2" IsWarn="True"
+                    Text="这个页面是手动更新的，如有遗漏，请到GitHub交issues。"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="最新更新"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="ajjdxns.github.io全面上线！"/>
+	</StackPanel>
+</local:MyCard>
+<local:MyCard Title="其它">
+<local:MyButton Grid.Column="0" Margin="0,0,10,0" Height="35" ColorType="Highlight"
+                        Text="打开ajjdxns的主页" EventType="打开网页" EventData="https://ajjdxns.github.io/" />
+</local:MyCard>
