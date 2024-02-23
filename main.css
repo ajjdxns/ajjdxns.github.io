@@ -1,6 +1,7 @@
 :root {
     --lightblue: #00FFFF;
     --darkblue:  #000055;
+    --darkbluebg: #00aaaa;
     --white: #FFFFFF;
     --black: #000000;
     --linkdark: #666666;
@@ -11,6 +12,7 @@
     background: var(--bg);
     color: var(--fontColor);
     font-family: helvetica;
+    transition: all 1s ease-in-out;
   }
   
   li {
@@ -39,7 +41,21 @@
     transition: all 1s ease-in-out;
   }
   
+  .lik {
+    position: static;
+    top: 20px;
+    left: 250px;
+    height: 35px;
+    width: 75px;
+    border-radius: 15%;
+    border: none;
+    color: var(--black);
+    background-color: var(--defaultbg);
+    transition: all 1s ease-in-out;
+  }
+
   .light-theme {
+    --defaultbg: var(--bg);
     --bg: var(--lightblue);
     --fontColor: var(--black);
     --btnBg: var(--darkblue);
@@ -49,6 +65,7 @@
   }
   
   .dark-theme {
+    --defaultbg: var(--darkbluebg);
     --bg: var(--darkblue);
     --fontColor: var(--white);
     --btnBg: var(--lightblue);
