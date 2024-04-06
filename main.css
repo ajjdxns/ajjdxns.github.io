@@ -9,7 +9,7 @@
   }
   
   body {
-    cursur: url(/img/mous.cur)
+    cursur: url(/img/mous.cur);
     background: var(--bg);
     color: var(--fontColor);
     font-family: helvetica;
