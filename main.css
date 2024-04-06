@@ -9,11 +9,11 @@
   }
   
   body {
-    cursur: url(/img/mous.cur);
     background: var(--bg);
     color: var(--fontColor);
     font-family: helvetica;
     transition: all 1s ease-in-out;
+    cursur: url(/img/mouse.cur);
   }
   
   li {
